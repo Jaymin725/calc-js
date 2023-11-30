@@ -2,6 +2,7 @@
 .calculator {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 4px;
 
   width: fit-content;
 
@@ -14,4 +15,9 @@
 /* Output */
 #output {
   grid-column: 1 / -1;
+}
+
+/* Button */
+.btn {
+  aspect-ratio: 1;
 }

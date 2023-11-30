@@ -1,0 +1,7 @@
+.calculator {
+  display: grid;
+  margin: auto;
+  width: fit-content;
+  padding: 4px;
+  border: 2px solid lightgray;
+}

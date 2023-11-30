@@ -1,7 +1,17 @@
+/* Calculator */
 .calculator {
   display: grid;
-  margin: auto;
+  grid-template-columns: repeat(4, 1fr);
+
   width: fit-content;
+
+  margin: auto;
   padding: 4px;
+
   border: 2px solid lightgray;
+}
+
+/* Output */
+#output {
+  grid-column: 1 / -1;
 }
